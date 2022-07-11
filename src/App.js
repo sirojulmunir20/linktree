@@ -27,7 +27,7 @@ function App() {
         <div className="dark-mode"></div>
         <div className="card_body">
           <div className="profile text-center">
-            <img src="/PP-1.png" className="avatar" />
+            <img src="/munir2.png" className="avatar" />
             <div className="bg_content rd_12 p_8">
               <h1>@Munir</h1>
               <p className="layanan mt-16">
