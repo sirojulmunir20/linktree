@@ -31,9 +31,9 @@ function App() {
             <div className="bg_content rd_12 p_8">
               <h1>@Munir</h1>
               <p className="layanan mt-16">
-                <strong>Programming Service</strong>
+                <strong>Learn Programming</strong>
               </p>
-              <Typist cursor={config_cursor}>Receive manufacturing services Website and WebApps.</Typist>
+              <Typist cursor={config_cursor}>Student Backend Engineering at Ruangguru | Student at Universitas Islam Malang .</Typist>
             </div>
             <div className="bg_content rd_12 p_8 mt-16">
               Familiar with {''}
