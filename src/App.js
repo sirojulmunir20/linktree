@@ -33,7 +33,7 @@ function App() {
               <p className="layanan mt-16">
                 <strong>Learn Programming</strong>
               </p>
-              <Typist cursor={config_cursor}>Student Backend Engineering at Ruangguru | Student at Universitas Islam Malang .</Typist>
+              <Typist cursor={config_cursor}>Backend Engineering Student at Ruangguru | Accounting Student at Universitas Islam Malang.</Typist>
             </div>
             <div className="bg_content rd_12 p_8 mt-16">
               Familiar with {''}
