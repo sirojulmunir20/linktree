@@ -1,23 +1,90 @@
-import logo from './logo.svg';
+import React from 'react';
+import { useState } from 'react';
+import ParticlesBg from 'particles-bg';
 import './App.css';
+import { BsInstagram } from 'react-icons/bs';
+import { SiTiktok } from 'react-icons/si';
+import { FiYoutube } from 'react-icons/fi';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
+import Typist from 'react-typist';
+import TextLoop from 'react-text-loop';
 
 function App() {
+  const config_cursor = {
+    show: true,
+    blink: true,
+    element: '🔨',
+    hideWhenDone: true,
+  };
+
+  const [darkmode, setdarkmode] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className={`card ${darkmode ? 'dark' : ''}`}>
+        <div className="toggle-btn" onClick={() => setdarkmode(!darkmode)}></div>
+        <div className="dark-mode"></div>
+        <div className="card_body">
+          <div className="profile text-center">
+            <img src="/PP-1.png" className="avatar" />
+            <div className="bg_content rd_12 p_8">
+              <h1>@Munir</h1>
+              <p className="layanan mt-16">
+                <strong>Programming Service</strong>
+              </p>
+              <Typist cursor={config_cursor}>Receive manufacturing services Website and WebApps.</Typist>
+            </div>
+            <div className="bg_content rd_12 p_8 mt-16">
+              Familiar with {''}
+              <TextLoop interval={800}>
+                <span className="highlight">HTML</span>
+                <span className="highlight">CSS</span>
+                <span className="highlight">Javascript</span>
+                <span className="highlight">Go</span>
+                <span className="highlight">Mysql</span>
+                <span className="highlight">Bootstrap</span>
+                <span className="highlight">React JS</span>
+              </TextLoop>{' '}
+            </div>
+          </div>
+          <div className="mt-16">
+            <a href="https://www.instagram.com/sirojul.munir__/" className="btn_action bg_content">
+              <BsInstagram />
+              <span>Instagram</span>
+            </a>
+          </div>
+          <div className="mt-16">
+            <a href="https://web-cs.vercel.app/" className="btn_action bg_content">
+              <SiTiktok />
+              <span>Tiktok</span>
+            </a>
+          </div>
+          <div className="mt-16">
+            <a href="https://web-cs.vercel.app/" className="btn_action bg_content">
+              <FiYoutube />
+              <span>Youtube</span>
+            </a>
+          </div>
+          <div className="mt-16">
+            <a
+              href="https://www.linkedin.com/in/mohamad-sirojul-munir-4811b9237/"
+              className="btn_action bg_content"
+            >
+              <AiFillLinkedin />
+              <span>LinkedIn</span>
+            </a>
+          </div>
+          <div className="mt-16">
+            <a href="https://github.com/sirojulmunir20" className="btn_action bg_content">
+              <AiFillGithub />
+              <span>Github</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <ParticlesBg type="thick" bg={true} />
     </div>
   );
 }
