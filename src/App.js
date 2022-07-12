@@ -29,7 +29,7 @@ function App() {
           <div className="profile text-center">
             <img src="/munir2.png" className="avatar" />
             <div className="bg_content rd_12 p_8">
-              <h1>@Munir</h1>
+            <h1>@Munir</h1>
               <p className="layanan mt-16">
                 <strong>Learn Programming🚀</strong>
               </p>
