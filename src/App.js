@@ -68,7 +68,7 @@ function App() {
           </div>
           <div className="mt-16">
             <a
-              href="https://www.linkedin.com/in/mohamad-sirojul-munir-4811b9237/"
+              href="https://www.linkedin.com/in/mohamad-sirojul-munir/"
               className="btn_action bg_content"
             >
               <AiFillLinkedin />
