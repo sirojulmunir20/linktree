@@ -22,6 +22,7 @@ body {
     --color:rgb(58, 255, 58);
 }
 
+
 .card {
     background-color: #ffffff21;
     color: white;
@@ -42,6 +43,9 @@ body {
 
 .mt-16 {
     margin-top: 10px;
+}
+.mt-16 span {
+    letter-spacing: 1px;
 }
 
 .text-center {

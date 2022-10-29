@@ -50,20 +50,20 @@ function App() {
             </div>
           </div>
           <div className="mt-16">
-            <a href="https://www.instagram.com/sirojul.munir__/" className="btn_action bg_content">
+            <a href="https://www.instagram.com/sirojul.munir__/" target="_blank" className="btn_action bg_content">
               <BsInstagram />
               <span>Instagram</span>
             </a>
           </div>
           <div className="mt-16">
-            <a href="https://web-cs.vercel.app/" className="btn_action bg_content">
+            <a href="https://web-cs.vercel.app/" target="_blank"  className="btn_action bg_content">
               <SiTiktok />
               <span>Tiktok</span>
             </a>
           </div>
           <div className="mt-16">
             <a
-              href="https://www.linkedin.com/in/mohamad-sirojul-munir/"
+              href="https://www.linkedin.com/in/mohamad-sirojul-munir/" target="_blank" 
               className="btn_action bg_content"
             >
               <AiFillLinkedin />
@@ -71,13 +71,13 @@ function App() {
             </a>
           </div>
           <div className="mt-16">
-            <a href="https://github.com/sirojulmunir20" className="btn_action bg_content">
+            <a href="https://github.com/sirojulmunir20" target="_blank"  className="btn_action bg_content">
               <AiFillGithub />
               <span>Github</span>
             </a>
           </div>
           <div className="mt-16">
-            <a href="https://mohamadsirojulmunir.netlify.app/" className="btn_action bg_content">
+            <a href="https://mohamadsirojulmunir.netlify.app/" target="_blank"  className="btn_action bg_content">
               <GoFileSubmodule />
               <span>Portofolio</span>
             </a>
