@@ -4,9 +4,10 @@ import ParticlesBg from 'particles-bg';
 import './App.css';
 import { BsInstagram } from 'react-icons/bs';
 import { SiTiktok } from 'react-icons/si';
-import { FiYoutube } from 'react-icons/fi';
+// import { FiYoutube } from 'react-icons/fi';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
+import { GoFileSubmodule } from 'react-icons/Go'
 import Typist from 'react-typist';
 import TextLoop from 'react-text-loop';
 
@@ -33,7 +34,7 @@ function App() {
               <p className="layanan mt-16">
                 <strong>Learn Programming🚀</strong>
               </p>
-              <Typist cursor={config_cursor}>Backend Engineering Student at Ruangguru | Accounting Student at Universitas Islam Malang.</Typist>
+              <Typist cursor={config_cursor}>Accounting Student at Universitas Islam Malang | Backend Engineering Student at Ruangguru.</Typist>
             </div>
             <div className="bg_content rd_12 p_8 mt-16">
               Familiar with {''}
@@ -44,6 +45,7 @@ function App() {
                 <span className="highlight">Go</span>
                 <span className="highlight">Mysql</span>
                 <span className="highlight">Bootstrap</span>
+                <span className="highlight">TailwindCss</span>
                 <span className="highlight">React JS</span>
               </TextLoop>{' '}
             </div>
@@ -60,12 +62,12 @@ function App() {
               <span>Tiktok</span>
             </a>
           </div>
-          <div className="mt-16">
+          {/* <div className="mt-16">
             <a href="https://web-cs.vercel.app/" className="btn_action bg_content">
               <FiYoutube />
               <span>Youtube</span>
             </a>
-          </div>
+          </div> */}
           <div className="mt-16">
             <a
               href="https://www.linkedin.com/in/mohamad-sirojul-munir/"
@@ -79,6 +81,12 @@ function App() {
             <a href="https://github.com/sirojulmunir20" className="btn_action bg_content">
               <AiFillGithub />
               <span>Github</span>
+            </a>
+          </div>
+          <div className="mt-16">
+            <a href="https://mohamadsirojulmunir.netlify.app/" className="btn_action bg_content">
+              <GoFileSubmodule />
+              <span>Portofolio</span>
             </a>
           </div>
         </div>
