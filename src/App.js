@@ -4,10 +4,9 @@ import ParticlesBg from 'particles-bg';
 import './App.css';
 import { BsInstagram } from 'react-icons/bs';
 import { SiTiktok } from 'react-icons/si';
-// import { FiYoutube } from 'react-icons/fi';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
-import { GoFileSubmodule } from 'react-icons/Go'
+import { GoFileSubmodule } from 'react-icons/go'
 import Typist from 'react-typist';
 import TextLoop from 'react-text-loop';
 
@@ -62,12 +61,6 @@ function App() {
               <span>Tiktok</span>
             </a>
           </div>
-          {/* <div className="mt-16">
-            <a href="https://web-cs.vercel.app/" className="btn_action bg_content">
-              <FiYoutube />
-              <span>Youtube</span>
-            </a>
-          </div> */}
           <div className="mt-16">
             <a
               href="https://www.linkedin.com/in/mohamad-sirojul-munir/"
