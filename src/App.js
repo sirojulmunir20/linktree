@@ -43,6 +43,7 @@ function App() {
                 <span className="highlight">Javascript</span>
                 <span className="highlight">Go</span>
                 <span className="highlight">PostgreSQL</span>
+                <span className="highlight">GORM</span>
                 <span className="highlight">Bootstrap</span>
                 <span className="highlight">TailwindCss</span>
                 <span className="highlight">React JS</span>
