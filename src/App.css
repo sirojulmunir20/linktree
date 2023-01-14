@@ -6,7 +6,7 @@
 }
 
 :root {
-    --color: #008bff;
+    --color:rgb(58, 255, 58);
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 .card.dark{
-    --color:rgb(58, 255, 58);
+    --color: #008bff;
 }
 
 
