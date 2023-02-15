@@ -31,7 +31,7 @@ function App() {
             <div className="bg_content rd_12 p_8">
             <h1>@Munir</h1>
               <p className="layanan mt-16">
-                <strong>Learn Tech🚀</strong>
+                <strong>Learn Tech 🚀</strong>
               </p>
               <Typist cursor={config_cursor}>Accounting Student at Universitas Islam Malang | Ex-Backend Engineering Student at Ruangguru.</Typist>
             </div>
